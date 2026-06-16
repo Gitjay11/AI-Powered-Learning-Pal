@@ -1,0 +1,1 @@
+ALTER TABLE public.profiles ADD CONSTRAINT profiles_selected_track_id_fkey FOREIGN KEY (selected_track_id) REFERENCES public.tracks(id) ON DELETE SET NULL;
